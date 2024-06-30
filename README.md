@@ -13,16 +13,16 @@ HTML5: For structuring the content.
 
 INSTALLATION--->>>>
 
->>>RUN npx tailwindcss init
->>>change the content of tailwind.config.js to ```module.exports = {
+->>>RUN npx tailwindcss init
+->>>change the content of tailwind.config.js to ```module.exports = {
   content: ["./*.{html,js}"],
   theme: {
     extend: {},
   },
   plugins: [],
 }```
->>>create input.css and write  ``` @tailwind base;
+->>>create input.css and write  ``` @tailwind base;
 @tailwind components;
 @tailwind utilities;```
->>>include the style.css file to html
->>>run the command ```npx tailwindcss -i input.css -o style.css --watch```
+->>>include the style.css file to html
+->>>run the command ```npx tailwindcss -i input.css -o style.css --watch```
