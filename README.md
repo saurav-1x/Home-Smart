@@ -9,10 +9,13 @@ Customizable Components: Easily customizable components for reusability.
 Cross-Browser Compatibility: Works seamlessly on all major web browsers.
 Technologies Used
 Tailwind CSS: For styling and responsive design.
-HTML5: For structuring the content.
+HTML5: For structuring the content. 
+
 INSTALLATION--->>>>
+
 RUN >> npx tailwindcss init
-change the content of tailwind.config.js to  ``` /** @type {import('tailwindcss').Config} */
+change the content of tailwind.config.js to 
+```/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./*.{html,js}"],
   theme: {
@@ -20,7 +23,6 @@ module.exports = {
   },
   plugins: [],
 }```
-
 
 create input.css and write ``` @tailwind base;
 @tailwind components;
