@@ -1,6 +1,8 @@
 # Home-Smart
 
 >>>> Live link: https://s-homesmart.netlify.app/
+
+
 This project is a fully responsive website built using Tailwind CSS. Tailwind CSS is a utility-first CSS framework that makes it easy to create custom designs without writing any custom CSS. The website adapts seamlessly to different screen sizes, providing an optimal viewing experience on desktops, tablets, and mobile devices.
 
 Features
